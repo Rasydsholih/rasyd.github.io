@@ -1,0 +1,29 @@
+@media screen and (max-width: 760px) {
+    .footer02 {
+        position: relative;
+        top: 28px;
+    }
+
+    footer {
+        height: 2300px;
+    }
+
+    header .logo {
+        margin-left: 500px;
+    }
+
+    article a {
+        position: relative;
+        left: -365px;   
+    }
+    
+    section img {
+        display: none;
+    }
+
+    .displayflex h4 {
+        
+        margin-left: -200px;
+    }
+    
+}

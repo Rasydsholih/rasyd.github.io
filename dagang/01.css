@@ -1,0 +1,229 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/f7/44/06/f744060231b6aaecd96b158c50b35a84.gif);
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  position: relative;
+  margin-left: 20px;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+}
+
+nav ul {
+  position: relative;
+  bottom: 25px;
+  margin-left: 20px;
+}
+
+header {
+  width: 90%;
+  height: 50px;
+  background-color: beige;
+  margin-left: 70px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header .logo {
+  margin-left: 1140px;
+  font-size: 35px;
+  font-style: italic;
+  color: purple;
+}
+
+article {
+  font-size: 35px;
+  margin-top: 45px;
+  margin-left: 55px;
+  color: white;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: grey;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius: 100px;
+}
+
+button:hover {
+  transition: all 0.9s;
+  background-color: blue;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+}
+
+aside img {
+  width: 200px;
+  height: 200px;
+  margin-left: 150px;
+  margin-top: -150px;
+  border-radius: 100%;
+}
+
+section img {
+  width: 300px;
+  height: 300px;
+  margin-left: 990px;
+  margin-top: -50px;
+  position: relative;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+a {
+  font-size: 20px;
+}
+
+main footer {
+  background-color: gray;
+  height: 100px;
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  top: 125px;
+}
+
+.teks h1 {
+  font-size: 50px;
+}
+
+.gelang img {
+  width: 200px;
+  height: 200px;
+}
+
+.gelang h5 {
+  font-size: 10px;
+}
+
+.gelang h4 {
+  font-size: 15px;
+}
+
+.kacamata img {
+  width: 200px;
+  height: 200px;
+  margin-left: 60px;
+}
+
+.kacamata h5 {
+  font-size: 10px;
+  position: relative;
+  left: 25px;
+}
+
+.kacamata h4 {
+  font-size: 15px;
+  position: relative;
+  left: 25px;
+}
+
+.jam img {
+  width: 200px;
+  height: 200px;
+  margin-left: 60px;
+}
+
+.jam h5 {
+  font-size: 10px;
+  position: relative;
+  left: 25px;
+}
+
+.jam h4 {
+  font-size: 15px;
+  position: relative;
+  left: 25px;
+}
+
+footer article {
+  display: flex;
+  padding-left: 310px;
+}
+
+article a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: burlywood;
+  height: 500px;
+  text-align: center;
+  padding: 30px;
+}
+
+@media screen and (max-width: 860px) {
+  body {
+    background-repeat: no-repeat;
+  }
+
+  article {
+    font-size: 20px;
+    margin-top: 45px;
+    margin-left: 55px;
+    color: white;
+  }
+
+  button {
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 100px;
+  }
+
+  header {
+    margin-left: 55px;
+    width: 86%;
+    height: 50px;
+  }
+
+  header .logo {
+    position: relative;
+    right: 550px;
+  }
+
+  section img {
+    position: relative;
+    margin-left: 520px;
+    margin-top: -80px;
+    width: 200px;
+    height: 200px;
+  }
+
+  aside img {
+    width: 150px;
+    height: 150px;
+    margin-top: -50px;
+    position: relative;
+    left: 20px;
+  }
+
+  a {
+    font-size: 10px;
+  }
+}

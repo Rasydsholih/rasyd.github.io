@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/b9/08/86/b90886beff7a7664af28e02792674ce7.gif);
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  position: relative;
+  margin-left: 20px;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+}
+
+nav ul {
+  position: relative;
+  bottom: 25px;
+  margin-left: 0px;
+}
+
+header {
+  width: 90%;
+  height: 50px;
+  background-color: beige;
+  margin-left: 70px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header .logo {
+  margin-left: 1200px;
+  font-size: 35px;
+  font-style: italic;
+  color: purple;
+}
+
+main {
+  padding-bottom: 10px;
+}
+
+article {
+  font-size: 40px;
+  margin-top: 45px;
+  margin-left: 55px;
+  color: white;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: grey;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius: 100px;
+}
+
+button:hover {
+  transition: all 0.9s;
+  background-color: blue;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+}
+
+section img {
+  width: 300px;
+  height: 300px;
+  margin-left: 990px;
+  margin-top: -50px;
+  position: relative;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+aside img {
+  width: 200px;
+  height: 200px;
+  margin-left: 150px;
+  margin-top: -150px;
+  border-radius: 100%;
+}
+
+main footer {
+  background: rgb(142,138,138);
+  background: linear-gradient(0deg, rgba(142,138,138,1) 8%, rgba(0,0,0,1) 100%);
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  top: 40px;
+  margin-left: -5px;
+}
+.ora {
+  background-color: black;
+  width: 100%;
+  height: 36px;
+  position: relative;
+  top: 40px;
+}
+
+footer {
+  background: rgb(142,138,138);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 8%, rgba(142,138,138,1) 100%);
+  background-size: cover;
+  height: 900px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  top: 30px;
+  margin-left: -5px;
+}
+
+.footer02 {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 8%, rgba(0,0,0,1) 100%);
+  height: 300px;
+}
+
+.ada {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+
+.displayflex {
+  display: flex;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.porto01 {
+  margin-left: 500px;
+  margin-right: 40px;
+}
+
+.porto03 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+
+.teks h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.gelang img {
+  width: 200px;
+  height: 200px;
+}
+
+.gelang h5 {
+  font-size: 10px;
+}
+
+.gelang h4 {
+  font-size: 15px;
+}
+
+.kacamata img {
+  width: 200px;
+  height: 200px;
+  margin-left: 60px;
+}
+
+.kacamata h5 {
+  font-size: 10px;
+  position: relative;
+  left: 25px;
+}
+
+.kacamata h4 {
+  font-size: 15px;
+  position: relative;
+  left: 25px;
+}
+
+.jam img {
+  width: 200px;
+  height: 200px;
+  margin-left: 60px;
+}
+
+.jam h5 {
+  font-size: 10px;
+  position: relative;
+  left: 25px;
+}
+
+.jam h4 {
+  font-size: 15px;
+  position: relative;
+  left: 25px;
+}
+
+main footer article {
+  display: flex;
+  padding-left: 310px;
+}
+
+article a {
+  color: white;
+  text-decoration: none;
+}
+
+.image a  {
+  font-size: 25px;
+  color: white;
+  position: relative;
+  top: 120px;
+}
+
+.center{
+  border-bottom: 1px solid white;
+  position: relative;
+  top: 97px;
+}
+
+.akhiran {
+  color: white;
+  margin-top: 128px;
+}

@@ -1,0 +1,52 @@
+.kotak {
+    display: flex;
+    margin-bottom : 20px;
+  }
+  
+  .kotak01 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .side {
+    padding: 25px;
+  }
+  
+  .kotak01 .panjang{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  
+  .kotak01 .blue {
+    background-color: blue;
+  }
+  
+  .kotak01 .red {
+    background-color: red;
+  }
+  
+  .kotak01 .purple {
+    background-color: purple;
+  }
+  
+  .kotak01 .panjang {
+    height: 200px;
+  }
+  
+  .kotak01 .panjang button {
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+  }
